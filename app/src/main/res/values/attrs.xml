@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MapView">
+        <attr name="dimX" format="integer"/>
+        <attr name="dimY" format="integer"/>
+    </declare-styleable>
+</resources>

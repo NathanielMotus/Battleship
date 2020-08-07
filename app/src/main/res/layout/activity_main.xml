@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.nathaniel.motus.battleship.view.MapView
+            android:id="@+id/testmapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:dimX="10"
+            app:dimY="10">
+        </com.nathaniel.motus.battleship.view.MapView>
+
+    <com.nathaniel.motus.battleship.view.MapView
+        android:id="@+id/adversarytestmapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dimX="10"
+        app:dimY="10"
+        />
+
+
+</LinearLayout>
